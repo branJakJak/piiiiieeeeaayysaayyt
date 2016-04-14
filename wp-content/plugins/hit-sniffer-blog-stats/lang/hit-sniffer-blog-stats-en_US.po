@@ -1,0 +1,427 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hit Sniffer Live Blog Analytics\n"
+"POT-Creation-Date: 2015-09-05 21:29+0800\n"
+"PO-Revision-Date: 2015-09-05 21:31+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: hitsniffer.php:39
+msgid ""
+"Hit Sniffer tracking code not shown because you're an administrator and "
+"you've configured Hitsniffer plugin to ignore administrators."
+msgstr ""
+"Hit Sniffer tracking code not shown because you're an administrator and "
+"you've configured Hitsniffer plugin to ignore administrators."
+
+#: hitsniffer.php:261
+msgid "Hitsniffer is almost ready."
+msgstr "Hitsniffer is almost ready."
+
+#: hitsniffer.php:261
+#, php-format
+msgid ""
+"You must <a href=\"%1$s\">enter your Hitsniffer API key</a> to start "
+"tracking your stats."
+msgstr ""
+"You must <a href=\"%1$s\">enter your Hitsniffer API key</a> to start "
+"tracking your stats."
+
+#: hitsniffer.php:330
+msgid "Hit Sniffer Options"
+msgstr "Hit Sniffer Options"
+
+#: hitsniffer.php:330
+msgid "Hit Sniffer"
+msgstr "Hit Sniffer"
+
+#: hitsniffer.php:405
+msgid "Hit Sniffer plugin setting have been saved."
+msgstr "Hit Sniffer plugin setting have been saved."
+
+#: hitsniffer.php:405 hitsniffer.php:407
+msgid "We have started tracking your visitors."
+msgstr "We have started tracking your visitors."
+
+#: hitsniffer.php:407
+msgid ""
+"You can monitor your visitor activity in real time here, but hey! Please "
+"wait until we track some visitors first!"
+msgstr ""
+"You can monitor your visitor activity in real time here, but hey! Please "
+"wait until we track some visitors first!"
+
+#: hitsniffer.php:407
+msgid ""
+"Please get your Hitsniffer API code to enable us to start tracking your site "
+"visitors, for you."
+msgstr ""
+"Please get your Hitsniffer API code to enable us to start tracking your site "
+"visitors, for you."
+
+#: hitsniffer.php:442
+msgid "Hit Sniffer - an eye on your site"
+msgstr "Hit Sniffer - an eye on your site"
+
+#: hitsniffer.php:461
+msgid "Monitor your visitor activity, Click to open your real time dashboard."
+msgstr "Monitor your visitor activity, Click to open your real time dashboard."
+
+#: hitsniffer.php:796
+msgid ""
+"Hit Sniffer real time visitor activity tracker and analytics, allows you to "
+"be aware what is going in your wordpress blog and sites right now and has "
+"detailed archive for tracked visitor data. If you don't have an API code "
+"yet, you can get your free trial one at our website"
+msgstr ""
+"Hit Sniffer real time visitor activity tracker and analytics, allows you to "
+"be aware what is going in your wordpress blog and sites right now and has "
+"detailed archive for tracked visitor data. If you don't have an API code "
+"yet, you can get your free trial one at our website"
+
+#: hitsniffer.php:808
+msgid "Hit Sniffer API Code"
+msgstr "Hit Sniffer API Code"
+
+#: hitsniffer.php:808
+msgid "Get your code"
+msgstr "Get your code"
+
+#: hitsniffer.php:810
+msgid ""
+"Each site has its own API Code. It looks something like this "
+"3defb4a2e4426642ea... and can be found in your settings page on hitsniffer."
+"com"
+msgstr ""
+"Each site has its own API Code. It looks something like this "
+"3defb4a2e4426642ea... and can be found in your settings page on hitsniffer."
+"com"
+
+#: hitsniffer.php:815
+msgid "Advanced Settings"
+msgstr "Advanced Settings"
+
+#: hitsniffer.php:818 hitsniffer.php:826 hitsniffer.php:832 hitsniffer.php:838
+#: hitsniffer.php:845 hitsniffer.php:851 hitsniffer.php:857 hitsniffer.php:863
+#: hitsniffer.php:873 hitsniffer.php:1570 hitsniffer.php:1572
+#: hitsniffer.php:1574 hitsniffer.php:1576 hitsniffer.php:1578
+#: hitsniffer.php:1580 hitsniffer.php:1583 hitsniffer.php:1585
+#: hitsniffer.php:1587 hitsniffer.php:1589 hitsniffer.php:1591
+#: hitsniffer.php:1594 hitsniffer.php:1596 hitsniffer.php:1599
+msgid "Yes"
+msgstr "Yes"
+
+#: hitsniffer.php:820 hitsniffer.php:828 hitsniffer.php:834 hitsniffer.php:840
+#: hitsniffer.php:847 hitsniffer.php:853 hitsniffer.php:859 hitsniffer.php:865
+#: hitsniffer.php:874 hitsniffer.php:1571 hitsniffer.php:1573
+#: hitsniffer.php:1575 hitsniffer.php:1577 hitsniffer.php:1579
+#: hitsniffer.php:1581 hitsniffer.php:1584 hitsniffer.php:1586
+#: hitsniffer.php:1588 hitsniffer.php:1590 hitsniffer.php:1592
+#: hitsniffer.php:1595 hitsniffer.php:1597 hitsniffer.php:1600
+msgid "No"
+msgstr "No"
+
+#: hitsniffer.php:820
+msgid "Show hit sniffer quick summary in Wordpress dashboard?"
+msgstr "Show hit sniffer quick summary in Wordpress dashboard?"
+
+#: hitsniffer.php:828
+msgid ""
+"Enable Dashboard widget for administrators only ( recommended for security )"
+msgstr ""
+"Enable Dashboard widget for administrators only ( recommended for security )"
+
+#: hitsniffer.php:834
+msgid "Track visitors name ( using name they enter when commenting )?"
+msgstr "Track visitors name ( using name they enter when commenting )?"
+
+#: hitsniffer.php:840
+msgid "Ignore admin visits (remove tracking code for admins)?"
+msgstr "Ignore admin visits (remove tracking code for admins)?"
+
+#: hitsniffer.php:847
+msgid ""
+"Ignore admin visits by encorcing cookie block method on admin dashboard "
+"widgets?"
+msgstr ""
+"Ignore admin visits by encorcing cookie block method on admin dashboard "
+"widgets?"
+
+#: hitsniffer.php:853
+msgid "Enable \"chat with your visitors feature\""
+msgstr "Enable \"chat with your visitors feature\""
+
+#: hitsniffer.php:859
+msgid "Enable floating chat widget on bottom right of site"
+msgstr "Enable floating chat widget on bottom right of site"
+
+#: hitsniffer.php:865
+msgid "Use the compact Theme for wordpress dashboard widget?"
+msgstr "Use the compact Theme for wordpress dashboard widget?"
+
+#: hitsniffer.php:874
+msgid ""
+"Show mini Hitsniffer dashboard (Recent visitors) in wordpress admin "
+"dashboard?"
+msgstr ""
+"Show mini Hitsniffer dashboard (Recent visitors) in wordpress admin "
+"dashboard?"
+
+#: hitsniffer.php:878
+msgid "Show Visitor Map in wordpress admin dashboard?"
+msgstr "Show Visitor Map in wordpress admin dashboard?"
+
+#: hitsniffer.php:880
+msgid "Online Visitors"
+msgstr "Online Visitors"
+
+#: hitsniffer.php:881 hitsniffer.php:1150
+msgid "Today"
+msgstr "Today"
+
+#: hitsniffer.php:882
+msgid "Disable Map Widget in admin dashboard"
+msgstr "Disable Map Widget in admin dashboard"
+
+#: hitsniffer.php:898
+msgid "How to setup Hit Sniffer on Wordpress?"
+msgstr "How to setup Hit Sniffer on Wordpress?"
+
+#: hitsniffer.php:898
+msgid ""
+"Just sign up for a hit sniffer account</a> and follow our extremely simple "
+"instructions."
+msgstr ""
+"Just sign up for a hit sniffer account</a> and follow our extremely simple "
+"instructions."
+
+#: hitsniffer.php:900
+msgid ""
+"Login to your hit sniffer account, add your website address to your hit "
+"sniffer account."
+msgstr ""
+"Login to your hit sniffer account, add your website address to your hit "
+"sniffer account."
+
+#: hitsniffer.php:900
+msgid ""
+"Then in the Hitsniffer.com settings page, you will find your Hit Sniffer API "
+"code."
+msgstr ""
+"Then in the Hitsniffer.com settings page, you will find your Hit Sniffer API "
+"code."
+
+#: hitsniffer.php:902
+msgid ""
+"Copy and paste the API code into the specified field above and click save "
+"changes. That is all!<br>All your visitor information will be tracked and "
+"logged in real-time and you can monitor the data live in your Hitsniffer.com "
+"dashboard."
+msgstr ""
+"Copy and paste the API code into the specified field above and click save "
+"changes. That is all!<br>All your visitor information will be tracked and "
+"logged in real-time and you can monitor the data live in your Hitsniffer.com "
+"dashboard."
+
+#: hitsniffer.php:908
+msgid "View the features of Hitsniffer"
+msgstr "View the features of Hitsniffer"
+
+#: hitsniffer.php:910
+msgid "Hitsniffer also supports normal websites ( non wordpress pages )."
+msgstr "Hitsniffer also supports normal websites ( non wordpress pages )."
+
+#: hitsniffer.php:912
+msgid ""
+"If you have a normal website then all you have to do is input the tracking "
+"code on each page of your website, a header of footer page is ideal for this."
+msgstr ""
+"If you have a normal website then all you have to do is input the tracking "
+"code on each page of your website, a header of footer page is ideal for this."
+
+#: hitsniffer.php:914
+msgid "Website Code"
+msgstr "Website Code"
+
+#: hitsniffer.php:972 hitsniffer.php:1040
+msgid ""
+"Your Browser don't show our widget's iframe. Please Open Hit Sniffer "
+"Dashboard manually."
+msgstr ""
+"Your Browser don't show our widget's iframe. Please Open Hit Sniffer "
+"Dashboard manually."
+
+#: hitsniffer.php:990 hitsniffer.php:1055 hitsniffer.php:1113
+msgid ""
+"Hitsniffer API Code is not installed. Please open Wordpress settings -> "
+"Hitsniffer for instructions."
+msgstr ""
+"Hitsniffer API Code is not installed. Please open Wordpress settings -> "
+"Hitsniffer for instructions."
+
+#: hitsniffer.php:991 hitsniffer.php:1056 hitsniffer.php:1114
+msgid "You need get your free hit sniffer account to get an API key."
+msgstr "You need get your free hit sniffer account to get an API key."
+
+#: hitsniffer.php:1098
+msgid ""
+"Your Browser don't show our widget's iframe. Please Open Hit Sniffer "
+"Dashboard manually by clicking here."
+msgstr ""
+"Your Browser don't show our widget's iframe. Please Open Hit Sniffer "
+"Dashboard manually by clicking here."
+
+#: hitsniffer.php:1141
+msgid "Your Analytics Summary"
+msgstr "Your Analytics Summary"
+
+#: hitsniffer.php:1149
+msgid "Online"
+msgstr "Online"
+
+#: hitsniffer.php:1151
+msgid "Visitors Map"
+msgstr "Visitors Map"
+
+#: hitsniffer.php:1158
+msgid "Recent visitors"
+msgstr "Recent visitors"
+
+#: hitsniffer.php:1183
+msgid "Hit Sniffer Live Chat Support"
+msgstr "Hit Sniffer Live Chat Support"
+
+#: hitsniffer.php:1292 hitsniffer.php:1565
+msgid "Title:"
+msgstr "Title:"
+
+#: hitsniffer.php:1294 hitsniffer.php:1566
+msgid "Your Comment:"
+msgstr "Your Comment:"
+
+#: hitsniffer.php:1296
+msgid "Custom Online Icon: (optional)"
+msgstr "Custom Online Icon: (optional)"
+
+#: hitsniffer.php:1298
+msgid "Custom Offline Icon: (optional)"
+msgstr "Custom Offline Icon: (optional)"
+
+#: hitsniffer.php:1300
+msgid "What is this widget?"
+msgstr "What is this widget?"
+
+#: hitsniffer.php:1300
+msgid ""
+"Hit Sniffer offers a built-in live chat feature. The widget shows an online "
+"support icon whenever you are online and shows a leave a message contact "
+"form icon when you are not online."
+msgstr ""
+"Hit Sniffer offers a built-in live chat feature. The widget shows an online "
+"support icon whenever you are online and shows a leave a message contact "
+"form icon when you are not online."
+
+#: hitsniffer.php:1302
+msgid "Click here to open Hit Sniffer Widgets page."
+msgstr "Click here to open Hit Sniffer Widgets page."
+
+#: hitsniffer.php:1303
+msgid ""
+"With our Firefox addon, you can chat to your visitors direct from a firefox "
+"pop up window."
+msgstr ""
+"With our Firefox addon, you can chat to your visitors direct from a firefox "
+"pop up window."
+
+#: hitsniffer.php:1311
+msgid ""
+"Please configure hit sniffer API Code in your wordpress settings -> Hit "
+"Sniffer before using the chat widget."
+msgstr ""
+"Please configure hit sniffer API Code in your wordpress settings -> Hit "
+"Sniffer before using the chat widget."
+
+#: hitsniffer.php:1372
+msgid "Hit Sniffer Statistics"
+msgstr "Hit Sniffer Statistics"
+
+#: hitsniffer.php:1571
+msgid "Show Online Counts"
+msgstr "Show Online Counts"
+
+#: hitsniffer.php:1573
+msgid "Show Visits Today"
+msgstr "Show Visits Today"
+
+#: hitsniffer.php:1575
+msgid "Show Pageviews Today"
+msgstr "Show Pageviews Today"
+
+#: hitsniffer.php:1577
+msgid "Show New Visitors Count for Today"
+msgstr "Show New Visitors Count for Today"
+
+#: hitsniffer.php:1579
+msgid "Show Returning Visitors Today"
+msgstr "Show Returning Visitors Today"
+
+#: hitsniffer.php:1581
+msgid "Show New Visits % Today"
+msgstr "Show New Visits % Today"
+
+#: hitsniffer.php:1584
+msgid "Show Vists Yesterday"
+msgstr "Show Vists Yesterday"
+
+#: hitsniffer.php:1586
+msgid "Show Pageviews Yesterday"
+msgstr "Show Pageviews Yesterday"
+
+#: hitsniffer.php:1588
+msgid "Show New Visitors Count for Yesterday"
+msgstr "Show New Visitors Count for Yesterday"
+
+#: hitsniffer.php:1590
+msgid "Show Returning Visitors Yesterday"
+msgstr "Show Returning Visitors Yesterday"
+
+#: hitsniffer.php:1592
+msgid "Show New Visits % Yesterday"
+msgstr "Show New Visits % Yesterday"
+
+#: hitsniffer.php:1595
+msgid "Show Total Pageviews"
+msgstr "Show Total Pageviews"
+
+#: hitsniffer.php:1597
+msgid "Show Total Visits"
+msgstr "Show Total Visits"
+
+#: hitsniffer.php:1600
+msgid "Use Custom Theme?"
+msgstr "Use Custom Theme?"
+
+#: hitsniffer.php:1610
+msgid ""
+"Please configure your  Hitsniffer API Code in your \"wordpress Settings -> "
+"Hit Sniffer\" before using the statistics widget."
+msgstr ""
+"Please configure your  Hitsniffer API Code in your \"wordpress Settings -> "
+"Hit Sniffer\" before using the statistics widget."
+
+#: hitsniffer.php:1667
+msgid "Settings"
+msgstr "Settings"
