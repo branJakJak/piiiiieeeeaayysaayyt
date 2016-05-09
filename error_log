@@ -1,0 +1,10 @@
+[21-Apr-2016 10:50:21 UTC] PHP Fatal error:  Call to undefined function fetch() in /home/accidentsurvey/public_html/wp-content/themes/uniform/functions.php on line 226
+[21-Apr-2016 10:50:38 UTC] PHP Fatal error:  Call to undefined function fetch() in /home/accidentsurvey/public_html/wp-content/themes/uniform/functions.php on line 226
+[21-Apr-2016 10:55:24 UTC] PHP Fatal error:  Call to undefined function fetch() in /home/accidentsurvey/public_html/wp-content/themes/uniform/functions.php on line 226
+[09-May-2016 19:05:07 UTC] PHP Parse error:  syntax error, unexpected 'available' (T_STRING) in /home/worthadvce/public_html/wp-content/themes/uniform/functions.php on line 16
+[09-May-2016 19:05:16 UTC] PHP Parse error:  syntax error, unexpected 'available' (T_STRING) in /home/worthadvce/public_html/wp-content/themes/uniform/functions.php on line 16
+[09-May-2016 19:06:33 UTC] PHP Parse error:  syntax error, unexpected 'available' (T_STRING) in /home/worthadvce/public_html/wp-content/themes/uniform/functions.php on line 16
+[09-May-2016 19:06:51 UTC] PHP Parse error:  syntax error, unexpected 'available' (T_STRING) in /home/worthadvce/public_html/wp-content/themes/uniform/functions.php on line 16
+[09-May-2016 19:07:02 UTC] PHP Parse error:  syntax error, unexpected 'available' (T_STRING) in /home/worthadvce/public_html/wp-content/themes/uniform/functions.php on line 16
+[09-May-2016 19:08:47 UTC] PHP Parse error:  syntax error, unexpected 'available' (T_STRING) in /home/worthadvce/public_html/wp-content/themes/uniform/functions.php on line 16
+[09-May-2016 19:10:54 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/worthadvce/public_html/wp-includes/wp-db.php on line 1518

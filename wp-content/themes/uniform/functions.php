@@ -216,18 +216,44 @@ function vfb_action_confirmation( $form_id, $entry_id ){
 		$firstname = "";
 		$lastname = "";
 		if (isset($_POST['vfb-9'])) {
-			$mobileNumberContainer = $_POST['vfb-9'];
+			$mobileNumberContainer = str_replace(" ", "", $_POST['vfb-9']);
+			$_POST['vfb-9'] = $mobileNumberContainer;
 		}
 		$mobileNumberContainer = floatval($mobileNumberContainer);
+
 		$curlURL = "http://data.dncsystem.website/index.php/dispo/accidentsurvey/".$mobileNumberContainer;
 		$httpParams = array(
 				"first_name"=>$_POST['vfb-5'],
 				"last_name"=>$_POST['vfb-6'],
-				"address1"=>"**50% COMMISSION SPLIT**",
+				"address1"=>"",
 			);
 		$curlURL .= "?".http_build_query($httpParams);
 		$curlres = curl_init($curlURL);
 		curl_setopt($curlres, CURLOPT_RETURNTRANSFER, true);
-		$curlResRaw = curl_exec($curlres);
+		//$curlResRaw = curl_exec($curlres);
 	}
+}
+add_filter( 'vfb_entries_save_new', 'vfb_filter_clean_mobile', 10, 2 );
+function vfb_filter_clean_mobile( $save, $form_id ){    
+
+		/**
+		 * One submission a day implementation
+		 */
+		$entriestTable = 'wp_vfb_pro_entries';
+		$currentIpAddress = $_SERVER['REMOTE_ADDR'];
+
+		// PDO Connection to MySQL
+		$conn = new PDO('mysql:host=localhost;dbname=worthadv_db', 'worthadv_db', 'hitman052529');
+		$query = $conn->prepare("select count(entries_id) as numOfEntries from wp_vfb_pro_entries WHERE entry_approved = 1 and ip_address = '{$currentIpAddress}' and date(date_submitted) = date(NOW())");
+		$query->execute();
+		$queryResult = $query->fetch( PDO::FETCH_ASSOC );
+		$numOfEntries = intval($queryResult['numOfEntries']);
+		if ($numOfEntries >= 1) {
+			$save = false;
+		}
+	if (isset($_POST['vfb-9']) && $form_id === 1) {
+		$mobileNumberContainer = str_replace(" ", "", $_POST['vfb-9']);
+		$_POST['vfb-9'] = $mobileNumberContainer;
+	}
+    return $save;
 }

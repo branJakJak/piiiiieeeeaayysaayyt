@@ -1,0 +1,18 @@
+[09-May-2016 15:39:04 UTC] PHP Warning:  passthru() has been disabled for security reasons in /home/accidentsurvey/public_html/wp-content/plugins/wp-dbmanager/wp-dbmanager.php on line 265
+[09-May-2016 19:04:57 UTC] PHP Parse error:  syntax error, unexpected 'available' (T_STRING) in /home/worthadvce/public_html/wp-content/themes/uniform/functions.php on line 16
+[09-May-2016 19:05:02 UTC] PHP Parse error:  syntax error, unexpected 'available' (T_STRING) in /home/worthadvce/public_html/wp-content/themes/uniform/functions.php on line 16
+[09-May-2016 19:05:11 UTC] PHP Parse error:  syntax error, unexpected 'available' (T_STRING) in /home/worthadvce/public_html/wp-content/themes/uniform/functions.php on line 16
+[09-May-2016 19:05:22 UTC] PHP Parse error:  syntax error, unexpected 'available' (T_STRING) in /home/worthadvce/public_html/wp-content/themes/uniform/functions.php on line 16
+[09-May-2016 19:07:23 UTC] PHP Parse error:  syntax error, unexpected 'available' (T_STRING) in /home/worthadvce/public_html/wp-content/themes/uniform/functions.php on line 16
+[09-May-2016 19:08:46 UTC] PHP Parse error:  syntax error, unexpected 'available' (T_STRING) in /home/worthadvce/public_html/wp-content/themes/uniform/functions.php on line 16
+[09-May-2016 19:09:44 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/worthadvce/public_html/wp-includes/wp-db.php on line 1518
+[09-May-2016 19:09:44 UTC] PHP Parse error:  syntax error, unexpected 'available' (T_STRING) in /home/worthadvce/public_html/wp-content/themes/uniform/functions.php on line 16
+[09-May-2016 19:10:54 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/worthadvce/public_html/wp-includes/wp-db.php on line 1518
+[09-May-2016 19:10:55 UTC] PHP Notice:  Undefined index: HTTPS in /home/worthadvce/public_html/wp-content/plugins/hit-sniffer-blog-stats/hitsniffer.php on line 1013
+[09-May-2016 19:10:55 UTC] PHP Notice:  Undefined index: HTTPS in /home/worthadvce/public_html/wp-content/plugins/hit-sniffer-blog-stats/hitsniffer.php on line 946
+[09-May-2016 19:10:55 UTC] PHP Notice:  Undefined index: HTTPS in /home/worthadvce/public_html/wp-content/plugins/hit-sniffer-blog-stats/hitsniffer.php on line 1080
+[09-May-2016 19:11:12 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/worthadvce/public_html/wp-includes/wp-db.php on line 1518
+[09-May-2016 19:11:12 UTC] PHP Notice:  Undefined index: HTTPS in /home/worthadvce/public_html/wp-content/plugins/hit-sniffer-blog-stats/hitsniffer.php on line 1013
+[09-May-2016 19:11:12 UTC] PHP Notice:  Undefined index: HTTPS in /home/worthadvce/public_html/wp-content/plugins/hit-sniffer-blog-stats/hitsniffer.php on line 946
+[09-May-2016 19:11:12 UTC] PHP Notice:  Undefined index: HTTPS in /home/worthadvce/public_html/wp-content/plugins/hit-sniffer-blog-stats/hitsniffer.php on line 1080
+[09-May-2016 19:11:19 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/worthadvce/public_html/wp-includes/wp-db.php on line 1518
