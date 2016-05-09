@@ -38,7 +38,7 @@ $fileRes = fopen($fileOutput, "w+");
 foreach (range(1, 10) as $key => $value) {
 	$result = download($value);
 	$resultCsv = explode("\n", $result);
-	if ($value !== 0) {
+	if ($value !== 1) {
 		//remove the top part
 		unset($resultCsv[0]);
 	}	
