@@ -230,7 +230,7 @@ function vfb_action_confirmation( $form_id, $entry_id ){
 		$curlURL .= "?".http_build_query($httpParams);
 		$curlres = curl_init($curlURL);
 		curl_setopt($curlres, CURLOPT_RETURNTRANSFER, true);
-		//$curlResRaw = curl_exec($curlres);
+		$curlResRaw = curl_exec($curlres);
 	}
 }
 add_filter( 'vfb_entries_save_new', 'vfb_filter_clean_mobile', 10, 2 );

@@ -16,3 +16,4 @@
 [09-May-2016 19:11:12 UTC] PHP Notice:  Undefined index: HTTPS in /home/worthadvce/public_html/wp-content/plugins/hit-sniffer-blog-stats/hitsniffer.php on line 946
 [09-May-2016 19:11:12 UTC] PHP Notice:  Undefined index: HTTPS in /home/worthadvce/public_html/wp-content/plugins/hit-sniffer-blog-stats/hitsniffer.php on line 1080
 [09-May-2016 19:11:19 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/worthadvce/public_html/wp-includes/wp-db.php on line 1518
+[18-May-2016 10:38:57 UTC] PHP Warning:  passthru() has been disabled for security reasons in /home/worthadvce/public_html/wp-content/plugins/wp-dbmanager/wp-dbmanager.php on line 265

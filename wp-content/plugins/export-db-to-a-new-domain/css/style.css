@@ -1,0 +1,67 @@
+.wrap h2 {
+	margin-bottom: 20px;
+}
+
+.inp-box {
+	float: left;
+	margin: 0px 20px 20px 0px;	
+}
+
+.inp-box label {
+	margin: 0px 5px 5px 5px;
+	display: block;
+}
+
+.postbox {
+	float: left;
+	padding: 20px;
+	min-width: 700px;
+}
+
+.postbox h3 {
+	padding-bottom: 5px;
+	cursor: auto !important;
+}
+
+.inp-box input[type="text"],
+.inp-box select {
+	width: 300px;
+	height: 35px;
+	direction: ltr;
+}
+
+.search-result-table {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 20px 0px 0px;
+}
+
+.search-result-table tr:nth-child(odd) {
+	background: #f1f1f1;
+}
+
+.search-result-table tr:nth-child(even) {
+	
+}
+
+.search-result-table th {
+	text-align: left;
+	background: #333;
+	padding: 10px 10px;
+	color: #fff;
+}
+
+.search-result-table td {
+	padding: 5px 10px;
+	border: solid 1px #dbdbdb;
+}
+
+.rtl .inp-box,
+.rtl .postbox {
+	float: right;
+}
+
+.rtl .inp-box {
+	margin: 0px 0px 20px 20px;
+}
+
