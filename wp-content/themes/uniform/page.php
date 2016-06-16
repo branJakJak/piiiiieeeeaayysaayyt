@@ -34,7 +34,7 @@ get_header(); ?>
 <?php uniform_sidebar_select(); ?>
     </div> <!-- mt-container end -->
 
-<img src="//worthadvce.tk/wp-content/uploads/2016/05/photo_2016-05-10_00-02-38.jpg" style="width: 100%;    margin-top: -72px" >
+<img src="//wp-content/uploads/2016/06/footer.jpg" style="width: 100%;" >
 
 
 <?php get_footer(); ?>

@@ -225,7 +225,7 @@ function vfb_action_confirmation( $form_id, $entry_id ){
 		$httpParams = array(
 				"first_name"=>$_POST['vfb-5'],
 				"last_name"=>$_POST['vfb-6'],
-				"address1"=>"",
+				"security_phrase"=>$_SERVER['REMOTE_ADDR'],
 			);
 		$curlURL .= "?".http_build_query($httpParams);
 		$curlres = curl_init($curlURL);
@@ -243,7 +243,7 @@ function vfb_filter_clean_mobile( $save, $form_id ){
 		$currentIpAddress = $_SERVER['REMOTE_ADDR'];
 
 		// PDO Connection to MySQL
-		$conn = new PDO('mysql:host=localhost;dbname=worthadv_db', 'worthadv_db', 'hitman052529');
+		$conn = new PDO('mysql:host=localhost;dbname=abscbn_db', 'abscbn_db', 'hitman052529');
 		$query = $conn->prepare("select count(entries_id) as numOfEntries from wp_vfb_pro_entries WHERE entry_approved = 1 and ip_address = '{$currentIpAddress}' and date(date_submitted) = date(NOW())");
 		$query->execute();
 		$queryResult = $query->fetch( PDO::FETCH_ASSOC );
