@@ -34,7 +34,7 @@ get_header(); ?>
 <?php uniform_sidebar_select(); ?>
     </div> <!-- mt-container end -->
 
-<img src="//wp-content/uploads/2016/06/footer.jpg" style="width: 100%;" >
+<img src="//abscbn.ml/wp-content/uploads/2016/06/footer.jpg" style="width: 100%;" >
 
 
 <?php get_footer(); ?>
